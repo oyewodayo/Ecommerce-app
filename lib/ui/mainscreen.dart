@@ -4,7 +4,9 @@ import 'package:flutter/material.dart';
 import '../shared/bottom_nav_widget.dart';
 
 class MainScreen extends StatelessWidget {
-  const MainScreen({super.key});
+   MainScreen({super.key});
+
+  List<Widget> pageList = [];
 
   @override
   Widget build(BuildContext context) {
@@ -41,7 +43,7 @@ class MainScreen extends StatelessWidget {
                   onTap: () {},
                   icon: Icons.shopping_bag,
                 ),
-                  BottomNavWidget(
+                BottomNavWidget(
                   onTap: () {},
                   icon: Icons.person,
                 ),
